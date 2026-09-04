@@ -5,8 +5,11 @@ import AnomalyBanner from './components/AnomalyBanner';
 import AnalyticsCharts from './components/AnalyticsCharts';
 import ExecutiveBriefCard from './components/ExecutiveBriefCard';
 import IncidentsList from './components/IncidentsList';
+import ScenarioSimulator from './components/ScenarioSimulator';
+import { LayoutDashboard, Sliders } from 'lucide-react';
 
 export default function App() {
+  const [activeTab, setActiveTab] = useState('DASHBOARD'); // 'DASHBOARD' or 'SIMULATOR'
   const [selectedWarehouse, setSelectedWarehouse] = useState('ALL');
   const [activeIncidentId, setActiveIncidentId] = useState('INC-001');
 
@@ -48,7 +51,6 @@ export default function App() {
       });
       const data = await res.json();
       
-      // Update local state immediately
       setIncidents(prev => prev.map(inc => {
         if (inc.id === incidentId) {
           return { ...inc, approval: data.approval };
@@ -64,44 +66,96 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '24px 20px 60px 20px' }}>
-      {/* Top Navigation & Controls */}
+      {/* Top Header */}
       <Header 
         selectedWarehouse={selectedWarehouse}
         setSelectedWarehouse={setSelectedWarehouse}
         totalOrders={kpiSummary?.total_orders}
       />
 
-      {/* KPI Cards */}
-      <KpiSummaryCards kpiData={kpiSummary} />
+      {/* Main Tab Navigation Bar */}
+      <div style={{ display: 'flex', gap: '12px', marginBottom: '24px' }}>
+        <button
+          onClick={() => setActiveTab('DASHBOARD')}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '12px 20px',
+            borderRadius: '10px',
+            border: activeTab === 'DASHBOARD' ? '1px solid var(--accent-indigo)' : '1px solid var(--border-glass)',
+            background: activeTab === 'DASHBOARD' ? 'linear-gradient(135deg, rgba(99, 102, 241, 0.25) 0%, rgba(16, 185, 129, 0.25) 100%)' : 'rgba(17, 24, 39, 0.6)',
+            color: '#F9FAFB',
+            fontWeight: 700,
+            fontSize: '0.9rem',
+            cursor: 'pointer',
+            boxShadow: activeTab === 'DASHBOARD' ? 'var(--glow-indigo)' : 'none',
+            transition: 'all 0.2s ease'
+          }}
+        >
+          <LayoutDashboard size={18} color="var(--accent-indigo)" />
+          3PL Control Tower & Diagnostic Briefs
+        </button>
 
-      {/* Planted Anomalies Ticker Banner */}
-      {incidents.length > 0 && (
-        <AnomalyBanner 
-          incidents={incidents}
-          activeIncidentId={activeIncidentId}
-          setActiveIncidentId={setActiveIncidentId}
-        />
+        <button
+          onClick={() => setActiveTab('SIMULATOR')}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '12px 20px',
+            borderRadius: '10px',
+            border: activeTab === 'SIMULATOR' ? '1px solid var(--accent-emerald)' : '1px solid var(--border-glass)',
+            background: activeTab === 'SIMULATOR' ? 'linear-gradient(135deg, rgba(16, 185, 129, 0.25) 0%, rgba(99, 102, 241, 0.25) 100%)' : 'rgba(17, 24, 39, 0.6)',
+            color: '#F9FAFB',
+            fontWeight: 700,
+            fontSize: '0.9rem',
+            cursor: 'pointer',
+            boxShadow: activeTab === 'SIMULATOR' ? 'var(--glow-emerald)' : 'none',
+            transition: 'all 0.2s ease'
+          }}
+        >
+          <Sliders size={18} color="var(--accent-emerald)" />
+          Growth Model Scenario Simulator
+        </button>
+      </div>
+
+      {/* Tab 1: Dashboard View */}
+      {activeTab === 'DASHBOARD' && (
+        <>
+          <KpiSummaryCards kpiData={kpiSummary} />
+
+          {incidents.length > 0 && (
+            <AnomalyBanner 
+              incidents={incidents}
+              activeIncidentId={activeIncidentId}
+              setActiveIncidentId={setActiveIncidentId}
+            />
+          )}
+
+          <AnalyticsCharts 
+            dailyData={dailyTrends}
+            activeIncident={activeIncident}
+          />
+
+          <ExecutiveBriefCard 
+            incident={activeIncident}
+            onApproveRecommendation={handleApproveRecommendation}
+          />
+
+          {incidents.length > 0 && (
+            <IncidentsList 
+              incidents={incidents}
+              activeIncidentId={activeIncidentId}
+              setActiveIncidentId={setActiveIncidentId}
+            />
+          )}
+        </>
       )}
 
-      {/* Analytics Charts */}
-      <AnalyticsCharts 
-        dailyData={dailyTrends}
-        activeIncident={activeIncident}
-      />
-
-      {/* Executive Decision Brief (The Core Pitch Component) */}
-      <ExecutiveBriefCard 
-        incident={activeIncident}
-        onApproveRecommendation={handleApproveRecommendation}
-      />
-
-      {/* Incidents Audit List */}
-      {incidents.length > 0 && (
-        <IncidentsList 
-          incidents={incidents}
-          activeIncidentId={activeIncidentId}
-          setActiveIncidentId={setActiveIncidentId}
-        />
+      {/* Tab 2: Growth Model Simulator View */}
+      {activeTab === 'SIMULATOR' && (
+        <ScenarioSimulator />
       )}
 
       {/* Footer */}
