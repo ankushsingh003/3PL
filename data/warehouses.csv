@@ -1,0 +1,5 @@
+warehouse_id,warehouse_name,region,pallet_capacity,dock_count,sqft,base_operating_cost_per_month
+WH-DXB-01,Dubai South Mega Hub,Dubai South,15000,12,250000,320000.0
+WH-AUH-01,Abu Dhabi Gateway Logistics,Abu Dhabi ICAD,8500,8,140000,190000.0
+WH-SHJ-01,Sharjah Express Fulfillment,Sharjah Industrial,5200,4,85000,115000.0
+WH-DWC-01,Al Maktoum Freezone Hub,DWC Air Cargo,11000,10,180000,240000.0

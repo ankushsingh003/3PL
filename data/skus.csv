@@ -1,0 +1,226 @@
+sku_id,client_id,sku_name,category,unit_weight_kg,storage_type,unit_cost
+SKU-1001,CLT-101,Smart Watch Pro (Variant A),Electronics,4.81,High-Value Secured,428.56
+SKU-1002,CLT-101,Wireless Earbuds G2 (Variant A),Electronics,9.2,Ambient,275.42
+SKU-1003,CLT-101,4K Action Cam (Variant A),Electronics,2.12,Ambient,82.86
+SKU-1004,CLT-101,Fast Charger 65W (Variant A),Electronics,0.91,High-Value Secured,391.79
+SKU-1005,CLT-101,OLED Tablet 10inch (Variant A),Electronics,7.59,Ambient,323.01
+SKU-1006,CLT-101,Smart Watch Pro (Variant B),Electronics,0.45,Ambient,436.91
+SKU-1007,CLT-101,Wireless Earbuds G2 (Variant B),Electronics,10.44,High-Value Secured,107.37
+SKU-1008,CLT-101,4K Action Cam (Variant B),Electronics,2.44,Ambient,94.78
+SKU-1009,CLT-101,Fast Charger 65W (Variant B),Electronics,3.94,Ambient,243.27
+SKU-1010,CLT-101,OLED Tablet 10inch (Variant B),Electronics,5.51,High-Value Secured,141.68
+SKU-1011,CLT-101,Smart Watch Pro (Variant C),Electronics,7.73,Ambient,75.68
+SKU-1012,CLT-101,Wireless Earbuds G2 (Variant C),Electronics,3.79,Ambient,174.37
+SKU-1013,CLT-101,4K Action Cam (Variant C),Electronics,5.81,High-Value Secured,356.55
+SKU-1014,CLT-101,Fast Charger 65W (Variant C),Electronics,2.66,Ambient,238.69
+SKU-1015,CLT-101,OLED Tablet 10inch (Variant C),Electronics,7.49,Ambient,35.21
+SKU-1016,CLT-101,Smart Watch Pro (Variant D),Electronics,7.67,High-Value Secured,89.18
+SKU-1017,CLT-101,Wireless Earbuds G2 (Variant D),Electronics,1.0,Ambient,427.77
+SKU-1018,CLT-101,4K Action Cam (Variant D),Electronics,12.08,Ambient,366.65
+SKU-1019,CLT-101,Fast Charger 65W (Variant D),Electronics,3.95,High-Value Secured,57.49
+SKU-1020,CLT-101,OLED Tablet 10inch (Variant D),Electronics,8.62,Ambient,206.47
+SKU-1021,CLT-101,Smart Watch Pro (Variant E),Electronics,1.7,Ambient,230.4
+SKU-1022,CLT-101,Wireless Earbuds G2 (Variant E),Electronics,0.62,High-Value Secured,410.55
+SKU-1023,CLT-101,4K Action Cam (Variant E),Electronics,3.38,Ambient,303.2
+SKU-1024,CLT-101,Fast Charger 65W (Variant E),Electronics,4.03,Ambient,241.23
+SKU-1025,CLT-101,OLED Tablet 10inch (Variant E),Electronics,6.92,High-Value Secured,95.41
+SKU-1026,CLT-101,Smart Watch Pro (Variant F),Electronics,12.13,Ambient,352.18
+SKU-1027,CLT-101,Wireless Earbuds G2 (Variant F),Electronics,11.76,Ambient,404.25
+SKU-1028,CLT-101,4K Action Cam (Variant F),Electronics,7.55,High-Value Secured,416.02
+SKU-1029,CLT-101,Fast Charger 65W (Variant F),Electronics,1.29,Ambient,100.25
+SKU-1030,CLT-101,OLED Tablet 10inch (Variant F),Electronics,0.76,Ambient,156.52
+SKU-1031,CLT-101,Smart Watch Pro (Variant G),Electronics,4.98,High-Value Secured,133.04
+SKU-1032,CLT-101,Wireless Earbuds G2 (Variant G),Electronics,10.39,Ambient,170.19
+SKU-1033,CLT-101,4K Action Cam (Variant G),Electronics,3.66,Ambient,251.07
+SKU-1034,CLT-101,Fast Charger 65W (Variant G),Electronics,1.93,High-Value Secured,363.96
+SKU-1035,CLT-101,OLED Tablet 10inch (Variant G),Electronics,1.12,Ambient,444.3
+SKU-1036,CLT-101,Smart Watch Pro (Variant H),Electronics,9.7,Ambient,101.44
+SKU-1037,CLT-101,Wireless Earbuds G2 (Variant H),Electronics,0.27,High-Value Secured,369.73
+SKU-1038,CLT-101,4K Action Cam (Variant H),Electronics,8.89,Ambient,332.12
+SKU-1039,CLT-101,Fast Charger 65W (Variant H),Electronics,9.69,Ambient,47.21
+SKU-1040,CLT-101,OLED Tablet 10inch (Variant H),Electronics,4.61,High-Value Secured,65.4
+SKU-1041,CLT-102,Silk Scarf Premium (Variant A),Apparel,10.82,High-Value Secured,286.13
+SKU-1042,CLT-102,Designer Denim Jacket (Variant A),Apparel,4.27,Ambient,42.65
+SKU-1043,CLT-102,Leather Handbag (Variant A),Apparel,4.03,Ambient,156.45
+SKU-1044,CLT-102,Cotton Linen Shirt (Variant A),Apparel,9.17,High-Value Secured,292.34
+SKU-1045,CLT-102,Cashmere Sweater (Variant A),Apparel,11.11,Ambient,220.41
+SKU-1046,CLT-102,Silk Scarf Premium (Variant B),Apparel,1.67,Ambient,325.26
+SKU-1047,CLT-102,Designer Denim Jacket (Variant B),Apparel,9.56,High-Value Secured,259.16
+SKU-1048,CLT-102,Leather Handbag (Variant B),Apparel,9.68,Ambient,229.8
+SKU-1049,CLT-102,Cotton Linen Shirt (Variant B),Apparel,6.63,Ambient,200.98
+SKU-1050,CLT-102,Cashmere Sweater (Variant B),Apparel,0.51,High-Value Secured,61.93
+SKU-1051,CLT-102,Silk Scarf Premium (Variant C),Apparel,0.59,Ambient,291.84
+SKU-1052,CLT-102,Designer Denim Jacket (Variant C),Apparel,4.07,Ambient,236.23
+SKU-1053,CLT-102,Leather Handbag (Variant C),Apparel,11.36,High-Value Secured,123.44
+SKU-1054,CLT-102,Cotton Linen Shirt (Variant C),Apparel,5.25,Ambient,343.66
+SKU-1055,CLT-102,Cashmere Sweater (Variant C),Apparel,3.01,Ambient,48.49
+SKU-1056,CLT-102,Silk Scarf Premium (Variant D),Apparel,3.76,High-Value Secured,85.13
+SKU-1057,CLT-102,Designer Denim Jacket (Variant D),Apparel,11.64,Ambient,366.53
+SKU-1058,CLT-102,Leather Handbag (Variant D),Apparel,7.99,Ambient,394.09
+SKU-1059,CLT-102,Cotton Linen Shirt (Variant D),Apparel,10.09,High-Value Secured,96.16
+SKU-1060,CLT-102,Cashmere Sweater (Variant D),Apparel,11.18,Ambient,249.61
+SKU-1061,CLT-102,Silk Scarf Premium (Variant E),Apparel,10.13,Ambient,404.8
+SKU-1062,CLT-102,Designer Denim Jacket (Variant E),Apparel,4.11,High-Value Secured,62.87
+SKU-1063,CLT-102,Leather Handbag (Variant E),Apparel,3.0,Ambient,200.79
+SKU-1064,CLT-102,Cotton Linen Shirt (Variant E),Apparel,10.26,Ambient,389.42
+SKU-1065,CLT-102,Cashmere Sweater (Variant E),Apparel,0.29,High-Value Secured,237.18
+SKU-1066,CLT-102,Silk Scarf Premium (Variant F),Apparel,5.33,Ambient,111.62
+SKU-1067,CLT-102,Designer Denim Jacket (Variant F),Apparel,1.67,Ambient,161.86
+SKU-1068,CLT-102,Leather Handbag (Variant F),Apparel,11.8,High-Value Secured,155.59
+SKU-1069,CLT-102,Cotton Linen Shirt (Variant F),Apparel,6.58,Ambient,320.81
+SKU-1070,CLT-102,Cashmere Sweater (Variant F),Apparel,4.67,Ambient,437.73
+SKU-1071,CLT-102,Silk Scarf Premium (Variant G),Apparel,12.04,High-Value Secured,124.53
+SKU-1072,CLT-102,Designer Denim Jacket (Variant G),Apparel,6.32,Ambient,145.88
+SKU-1073,CLT-102,Leather Handbag (Variant G),Apparel,3.7,Ambient,31.05
+SKU-1074,CLT-102,Cotton Linen Shirt (Variant G),Apparel,7.7,High-Value Secured,233.67
+SKU-1075,CLT-102,Cashmere Sweater (Variant G),Apparel,0.83,Ambient,136.21
+SKU-1076,CLT-103,Ergonomic Desk Chair (Variant A),Home Goods,11.37,Ambient,119.21
+SKU-1077,CLT-103,Bamboo Bed Sheet Set (Variant A),Home Goods,1.98,Ambient,227.91
+SKU-1078,CLT-103,LED Floor Lamp (Variant A),Home Goods,12.32,Ambient,120.29
+SKU-1079,CLT-103,Ceramic Dinnerware Set (Variant A),Home Goods,8.47,Ambient,346.3
+SKU-1080,CLT-103,Memory Foam Pillow (Variant A),Home Goods,3.12,Ambient,331.77
+SKU-1081,CLT-103,Ergonomic Desk Chair (Variant B),Home Goods,4.72,Ambient,290.05
+SKU-1082,CLT-103,Bamboo Bed Sheet Set (Variant B),Home Goods,7.99,Ambient,248.06
+SKU-1083,CLT-103,LED Floor Lamp (Variant B),Home Goods,1.31,Ambient,378.36
+SKU-1084,CLT-103,Ceramic Dinnerware Set (Variant B),Home Goods,4.15,Ambient,96.14
+SKU-1085,CLT-103,Memory Foam Pillow (Variant B),Home Goods,0.7,Ambient,272.04
+SKU-1086,CLT-103,Ergonomic Desk Chair (Variant C),Home Goods,8.53,Ambient,22.22
+SKU-1087,CLT-103,Bamboo Bed Sheet Set (Variant C),Home Goods,6.5,Ambient,113.53
+SKU-1088,CLT-103,LED Floor Lamp (Variant C),Home Goods,8.14,Ambient,90.85
+SKU-1089,CLT-103,Ceramic Dinnerware Set (Variant C),Home Goods,8.7,Ambient,183.23
+SKU-1090,CLT-103,Memory Foam Pillow (Variant C),Home Goods,11.72,Ambient,74.82
+SKU-1091,CLT-103,Ergonomic Desk Chair (Variant D),Home Goods,4.4,Ambient,64.36
+SKU-1092,CLT-103,Bamboo Bed Sheet Set (Variant D),Home Goods,11.57,Ambient,396.64
+SKU-1093,CLT-103,LED Floor Lamp (Variant D),Home Goods,3.37,Ambient,302.09
+SKU-1094,CLT-103,Ceramic Dinnerware Set (Variant D),Home Goods,10.25,Ambient,256.51
+SKU-1095,CLT-103,Memory Foam Pillow (Variant D),Home Goods,6.71,Ambient,120.21
+SKU-1096,CLT-103,Ergonomic Desk Chair (Variant E),Home Goods,1.35,Ambient,405.29
+SKU-1097,CLT-103,Bamboo Bed Sheet Set (Variant E),Home Goods,11.28,Ambient,290.4
+SKU-1098,CLT-103,LED Floor Lamp (Variant E),Home Goods,4.37,Ambient,166.91
+SKU-1099,CLT-103,Ceramic Dinnerware Set (Variant E),Home Goods,9.13,Ambient,405.24
+SKU-1100,CLT-103,Memory Foam Pillow (Variant E),Home Goods,11.11,Ambient,354.25
+SKU-1101,CLT-104,Glucose Monitor Kit (Variant A),Healthcare,8.1,Temperature-Controlled,51.6
+SKU-1102,CLT-104,Digital Thermometer (Variant A),Healthcare,2.19,Ambient,405.87
+SKU-1103,CLT-104,Vitamin C Complex 1000mg (Variant A),Healthcare,7.66,Temperature-Controlled,19.0
+SKU-1104,CLT-104,First Aid Professional Box (Variant A),Healthcare,1.45,Ambient,303.62
+SKU-1105,CLT-104,N95 Respirator Pack (Variant A),Healthcare,0.26,Temperature-Controlled,84.95
+SKU-1106,CLT-104,Glucose Monitor Kit (Variant B),Healthcare,6.95,Ambient,315.97
+SKU-1107,CLT-104,Digital Thermometer (Variant B),Healthcare,8.22,Temperature-Controlled,112.56
+SKU-1108,CLT-104,Vitamin C Complex 1000mg (Variant B),Healthcare,8.96,Ambient,118.2
+SKU-1109,CLT-104,First Aid Professional Box (Variant B),Healthcare,4.2,Temperature-Controlled,339.72
+SKU-1110,CLT-104,N95 Respirator Pack (Variant B),Healthcare,8.19,Ambient,384.41
+SKU-1111,CLT-104,Glucose Monitor Kit (Variant C),Healthcare,8.29,Temperature-Controlled,262.21
+SKU-1112,CLT-104,Digital Thermometer (Variant C),Healthcare,1.35,Ambient,174.96
+SKU-1113,CLT-104,Vitamin C Complex 1000mg (Variant C),Healthcare,3.46,Temperature-Controlled,121.14
+SKU-1114,CLT-104,First Aid Professional Box (Variant C),Healthcare,12.17,Ambient,186.0
+SKU-1115,CLT-104,N95 Respirator Pack (Variant C),Healthcare,11.17,Temperature-Controlled,289.55
+SKU-1116,CLT-104,Glucose Monitor Kit (Variant D),Healthcare,9.98,Ambient,233.65
+SKU-1117,CLT-104,Digital Thermometer (Variant D),Healthcare,7.3,Temperature-Controlled,229.25
+SKU-1118,CLT-104,Vitamin C Complex 1000mg (Variant D),Healthcare,2.6,Ambient,329.27
+SKU-1119,CLT-104,First Aid Professional Box (Variant D),Healthcare,3.65,Temperature-Controlled,25.58
+SKU-1120,CLT-104,N95 Respirator Pack (Variant D),Healthcare,8.14,Ambient,92.04
+SKU-1121,CLT-104,Glucose Monitor Kit (Variant E),Healthcare,11.77,Temperature-Controlled,429.96
+SKU-1122,CLT-104,Digital Thermometer (Variant E),Healthcare,11.45,Ambient,176.02
+SKU-1123,CLT-104,Vitamin C Complex 1000mg (Variant E),Healthcare,0.39,Temperature-Controlled,418.82
+SKU-1124,CLT-104,First Aid Professional Box (Variant E),Healthcare,5.47,Ambient,435.49
+SKU-1125,CLT-104,N95 Respirator Pack (Variant E),Healthcare,12.05,Temperature-Controlled,386.06
+SKU-1126,CLT-104,Glucose Monitor Kit (Variant F),Healthcare,3.82,Ambient,182.52
+SKU-1127,CLT-104,Digital Thermometer (Variant F),Healthcare,10.67,Temperature-Controlled,152.86
+SKU-1128,CLT-104,Vitamin C Complex 1000mg (Variant F),Healthcare,2.28,Ambient,257.21
+SKU-1129,CLT-104,First Aid Professional Box (Variant F),Healthcare,11.71,Temperature-Controlled,317.77
+SKU-1130,CLT-104,N95 Respirator Pack (Variant F),Healthcare,7.21,Ambient,57.27
+SKU-1131,CLT-105,Synthetic Motor Oil 5L (Variant A),Automotive,7.76,Ambient,445.67
+SKU-1132,CLT-105,Brake Pad Set Front (Variant A),Automotive,1.92,Ambient,240.47
+SKU-1133,CLT-105,Heavy Duty Car Battery (Variant A),Automotive,10.99,Ambient,337.23
+SKU-1134,CLT-105,LED Headlight Bulb H7 (Variant A),Automotive,8.77,Ambient,320.58
+SKU-1135,CLT-105,Microfiber Detailing Towel (Variant A),Automotive,4.62,Ambient,142.71
+SKU-1136,CLT-105,Synthetic Motor Oil 5L (Variant B),Automotive,10.16,Ambient,367.4
+SKU-1137,CLT-105,Brake Pad Set Front (Variant B),Automotive,10.86,Ambient,412.26
+SKU-1138,CLT-105,Heavy Duty Car Battery (Variant B),Automotive,6.49,Ambient,233.16
+SKU-1139,CLT-105,LED Headlight Bulb H7 (Variant B),Automotive,10.02,Ambient,297.73
+SKU-1140,CLT-105,Microfiber Detailing Towel (Variant B),Automotive,8.83,Ambient,361.17
+SKU-1141,CLT-105,Synthetic Motor Oil 5L (Variant C),Automotive,11.15,Ambient,162.03
+SKU-1142,CLT-105,Brake Pad Set Front (Variant C),Automotive,4.82,Ambient,55.88
+SKU-1143,CLT-105,Heavy Duty Car Battery (Variant C),Automotive,7.31,Ambient,30.63
+SKU-1144,CLT-105,LED Headlight Bulb H7 (Variant C),Automotive,5.93,Ambient,251.05
+SKU-1145,CLT-105,Microfiber Detailing Towel (Variant C),Automotive,3.72,Ambient,272.01
+SKU-1146,CLT-105,Synthetic Motor Oil 5L (Variant D),Automotive,0.58,Ambient,31.25
+SKU-1147,CLT-105,Brake Pad Set Front (Variant D),Automotive,10.32,Ambient,171.68
+SKU-1148,CLT-105,Heavy Duty Car Battery (Variant D),Automotive,1.76,Ambient,242.18
+SKU-1149,CLT-105,LED Headlight Bulb H7 (Variant D),Automotive,9.67,Ambient,108.88
+SKU-1150,CLT-105,Microfiber Detailing Towel (Variant D),Automotive,7.86,Ambient,52.13
+SKU-1151,CLT-106,Argan Oil Hair Serum (Variant A),Beauty & Care,0.84,Temperature-Controlled,246.14
+SKU-1152,CLT-106,Hyaluronic Face Cream (Variant A),Beauty & Care,6.85,Ambient,292.28
+SKU-1153,CLT-106,Matte Lipstick Coral (Variant A),Beauty & Care,9.13,Temperature-Controlled,439.5
+SKU-1154,CLT-106,Organic Sunscreen SPF50 (Variant A),Beauty & Care,6.55,Ambient,155.49
+SKU-1155,CLT-106,Exfoliating Scrub (Variant A),Beauty & Care,9.98,Temperature-Controlled,132.81
+SKU-1156,CLT-106,Argan Oil Hair Serum (Variant B),Beauty & Care,5.6,Ambient,49.13
+SKU-1157,CLT-106,Hyaluronic Face Cream (Variant B),Beauty & Care,0.51,Temperature-Controlled,433.75
+SKU-1158,CLT-106,Matte Lipstick Coral (Variant B),Beauty & Care,10.48,Ambient,317.75
+SKU-1159,CLT-106,Organic Sunscreen SPF50 (Variant B),Beauty & Care,5.23,Temperature-Controlled,90.38
+SKU-1160,CLT-106,Exfoliating Scrub (Variant B),Beauty & Care,2.12,Ambient,123.86
+SKU-1161,CLT-106,Argan Oil Hair Serum (Variant C),Beauty & Care,6.96,Temperature-Controlled,325.85
+SKU-1162,CLT-106,Hyaluronic Face Cream (Variant C),Beauty & Care,8.32,Ambient,136.77
+SKU-1163,CLT-106,Matte Lipstick Coral (Variant C),Beauty & Care,11.94,Temperature-Controlled,335.99
+SKU-1164,CLT-106,Organic Sunscreen SPF50 (Variant C),Beauty & Care,7.02,Ambient,281.1
+SKU-1165,CLT-106,Exfoliating Scrub (Variant C),Beauty & Care,5.36,Temperature-Controlled,122.76
+SKU-1166,CLT-106,Argan Oil Hair Serum (Variant D),Beauty & Care,4.58,Ambient,344.66
+SKU-1167,CLT-106,Hyaluronic Face Cream (Variant D),Beauty & Care,0.38,Temperature-Controlled,65.49
+SKU-1168,CLT-106,Matte Lipstick Coral (Variant D),Beauty & Care,0.77,Ambient,32.72
+SKU-1169,CLT-106,Organic Sunscreen SPF50 (Variant D),Beauty & Care,10.72,Temperature-Controlled,321.09
+SKU-1170,CLT-106,Exfoliating Scrub (Variant D),Beauty & Care,6.03,Ambient,57.56
+SKU-1171,CLT-106,Argan Oil Hair Serum (Variant E),Beauty & Care,6.25,Temperature-Controlled,220.96
+SKU-1172,CLT-106,Hyaluronic Face Cream (Variant E),Beauty & Care,2.33,Ambient,203.73
+SKU-1173,CLT-107,Organic Olive Oil 1L (Variant A),E-Commerce Grocery,5.1,Temperature-Controlled,282.89
+SKU-1174,CLT-107,Premium Dates Box 1kg (Variant A),E-Commerce Grocery,8.01,Ambient,34.71
+SKU-1175,CLT-107,Arabica Coffee Beans 500g (Variant A),E-Commerce Grocery,4.81,Temperature-Controlled,287.25
+SKU-1176,CLT-107,Basmati Rice Reserve 5kg (Variant A),E-Commerce Grocery,6.39,Ambient,387.57
+SKU-1177,CLT-107,Raw Honey Jar (Variant A),E-Commerce Grocery,8.3,Temperature-Controlled,85.88
+SKU-1178,CLT-107,Organic Olive Oil 1L (Variant B),E-Commerce Grocery,1.07,Ambient,294.45
+SKU-1179,CLT-107,Premium Dates Box 1kg (Variant B),E-Commerce Grocery,0.53,Temperature-Controlled,269.81
+SKU-1180,CLT-107,Arabica Coffee Beans 500g (Variant B),E-Commerce Grocery,11.76,Ambient,265.33
+SKU-1181,CLT-107,Basmati Rice Reserve 5kg (Variant B),E-Commerce Grocery,4.97,Temperature-Controlled,294.83
+SKU-1182,CLT-107,Raw Honey Jar (Variant B),E-Commerce Grocery,5.84,Ambient,252.34
+SKU-1183,CLT-107,Organic Olive Oil 1L (Variant C),E-Commerce Grocery,11.78,Temperature-Controlled,182.95
+SKU-1184,CLT-107,Premium Dates Box 1kg (Variant C),E-Commerce Grocery,12.02,Ambient,408.83
+SKU-1185,CLT-107,Arabica Coffee Beans 500g (Variant C),E-Commerce Grocery,2.61,Temperature-Controlled,45.17
+SKU-1186,CLT-107,Basmati Rice Reserve 5kg (Variant C),E-Commerce Grocery,1.44,Ambient,22.93
+SKU-1187,CLT-107,Raw Honey Jar (Variant C),E-Commerce Grocery,1.36,Temperature-Controlled,312.11
+SKU-1188,CLT-107,Organic Olive Oil 1L (Variant D),E-Commerce Grocery,1.08,Ambient,153.75
+SKU-1189,CLT-107,Premium Dates Box 1kg (Variant D),E-Commerce Grocery,10.59,Temperature-Controlled,25.12
+SKU-1190,CLT-107,Arabica Coffee Beans 500g (Variant D),E-Commerce Grocery,10.22,Ambient,137.61
+SKU-1191,CLT-107,Basmati Rice Reserve 5kg (Variant D),E-Commerce Grocery,1.65,Temperature-Controlled,318.08
+SKU-1192,CLT-107,Raw Honey Jar (Variant D),E-Commerce Grocery,7.94,Ambient,396.7
+SKU-1193,CLT-107,Organic Olive Oil 1L (Variant E),E-Commerce Grocery,9.24,Temperature-Controlled,364.51
+SKU-1194,CLT-107,Premium Dates Box 1kg (Variant E),E-Commerce Grocery,3.67,Ambient,92.19
+SKU-1195,CLT-107,Arabica Coffee Beans 500g (Variant E),E-Commerce Grocery,9.43,Temperature-Controlled,365.97
+SKU-1196,CLT-107,Basmati Rice Reserve 5kg (Variant E),E-Commerce Grocery,12.38,Ambient,194.49
+SKU-1197,CLT-107,Raw Honey Jar (Variant E),E-Commerce Grocery,4.78,Temperature-Controlled,352.74
+SKU-1198,CLT-108,Adjustable Dumbbell 20kg (Variant A),Sporting Goods,4.39,Ambient,419.88
+SKU-1199,CLT-108,Yoga Mat Non-Slip (Variant A),Sporting Goods,10.76,Ambient,201.61
+SKU-1200,CLT-108,Hydration Backpack 2L (Variant A),Sporting Goods,9.44,Ambient,343.23
+SKU-1201,CLT-108,Resistance Bands Set (Variant A),Sporting Goods,1.47,Ambient,407.61
+SKU-1202,CLT-108,Jump Rope Speed Pro (Variant A),Sporting Goods,6.41,Ambient,374.51
+SKU-1203,CLT-108,Adjustable Dumbbell 20kg (Variant B),Sporting Goods,4.14,Ambient,404.55
+SKU-1204,CLT-108,Yoga Mat Non-Slip (Variant B),Sporting Goods,4.99,Ambient,19.71
+SKU-1205,CLT-108,Hydration Backpack 2L (Variant B),Sporting Goods,11.34,Ambient,54.71
+SKU-1206,CLT-108,Resistance Bands Set (Variant B),Sporting Goods,4.13,Ambient,428.28
+SKU-1207,CLT-108,Jump Rope Speed Pro (Variant B),Sporting Goods,11.89,Ambient,264.45
+SKU-1208,CLT-108,Adjustable Dumbbell 20kg (Variant C),Sporting Goods,7.97,Ambient,210.07
+SKU-1209,CLT-108,Yoga Mat Non-Slip (Variant C),Sporting Goods,3.81,Ambient,157.97
+SKU-1210,CLT-109,4-Person Dome Tent (Variant A),Outdoor Retail,8.47,Ambient,342.28
+SKU-1211,CLT-109,Thermal Sleeping Bag (Variant A),Outdoor Retail,9.94,Ambient,358.48
+SKU-1212,CLT-109,Portable Gas Stove (Variant A),Outdoor Retail,1.32,Ambient,230.07
+SKU-1213,CLT-109,Camping Lantern 1000lm (Variant A),Outdoor Retail,0.91,Ambient,254.05
+SKU-1214,CLT-109,Trekking Poles Pair (Variant A),Outdoor Retail,5.63,Ambient,401.15
+SKU-1215,CLT-109,4-Person Dome Tent (Variant B),Outdoor Retail,4.52,Ambient,65.92
+SKU-1216,CLT-109,Thermal Sleeping Bag (Variant B),Outdoor Retail,1.96,Ambient,346.26
+SKU-1217,CLT-109,Portable Gas Stove (Variant B),Outdoor Retail,7.8,Ambient,58.99
+SKU-1218,CLT-110,RGB Mechanical Keyboard (Variant A),Electronics,1.23,High-Value Secured,319.92
+SKU-1219,CLT-110,Gaming Mouse 16000DPI (Variant A),Electronics,1.09,Ambient,372.51
+SKU-1220,CLT-110,Surround Sound Headset (Variant A),Electronics,8.89,Ambient,50.39
+SKU-1221,CLT-110,Streamer Condenser Mic (Variant A),Electronics,1.24,High-Value Secured,444.19
+SKU-1222,CLT-110,Dual Controller Charger (Variant A),Electronics,4.8,Ambient,176.23
+SKU-1223,CLT-110,RGB Mechanical Keyboard (Variant B),Electronics,10.2,Ambient,427.05
+SKU-1224,CLT-110,Gaming Mouse 16000DPI (Variant B),Electronics,12.33,High-Value Secured,342.72
+SKU-1225,CLT-110,Surround Sound Headset (Variant B),Electronics,4.83,Ambient,51.32

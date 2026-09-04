@@ -1,0 +1,11 @@
+client_id,client_name,industry,contract_type,monthly_volume_commitment,target_otif_pct,sla_penalty_per_late_order,onboarding_date
+CLT-101,Apex Electronics Middle East,Consumer Tech,Enterprise SLA,4500,98.5,45.0,2024-01-15
+CLT-102,Velvet & Silk Luxury Fashion,Apparel,Enterprise SLA,3800,98.0,50.0,2024-03-01
+CLT-103,Oasis Home & Decor,Home Goods,Standard 3PL,2500,95.0,25.0,2024-05-10
+CLT-104,Gulf Pharma Direct,Healthcare,Enterprise SLA,3200,99.0,65.0,2024-02-20
+CLT-105,Desert Auto Spares,Automotive,Standard 3PL,1800,94.0,20.0,2024-06-15
+CLT-106,Pearl Cosmetics Arabia,Beauty & Care,Standard 3PL,2200,96.0,30.0,2024-07-01
+CLT-107,Noon Mart Retail,E-Commerce Grocery,Enterprise SLA,5000,98.0,40.0,2024-04-12
+CLT-108,Falcon Sports & Fitness,Sporting Goods,Flex Volume,1200,93.0,18.0,2024-08-01
+CLT-109,Nomad Camping & Outdoor,Outdoor Retail,Flex Volume,900,92.0,15.0,2024-09-10
+CLT-110,Zenith Gaming & Gadgets,Electronics,Flex Volume (Ramping),600,95.0,35.0,2025-11-01
