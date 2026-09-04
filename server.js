@@ -3,6 +3,7 @@ import cors from 'cors';
 import sqlite3 from 'sqlite3';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { exec } from 'child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -272,6 +273,32 @@ app.post('/api/approve-recommendation', (req, res) => {
     success: true,
     incident_id,
     approval: incidentApprovals[incident_id]
+  });
+});
+
+// 5. Run Live LangGraph Agent Diagnosis Endpoint
+app.post('/api/run-agent-diagnosis', (req, res) => {
+  const { warehouse_id, start_date, end_date, anomaly_id } = req.body;
+  
+  const wh = warehouse_id || 'ALL';
+  const sDate = start_date || '2025-11-10';
+  const eDate = end_date || '2025-11-24';
+  const incId = anomaly_id || 'INC-001';
+
+  const pythonScript = path.join(__dirname, 'agents', 'langgraph_3pl_engine.py');
+  const command = `python "${pythonScript}" --warehouse ${wh} --start_date ${sDate} --end_date ${eDate} --anomaly_id ${incId}`;
+
+  exec(command, (error, stdout, stderr) => {
+    if (error) {
+      console.error('Error executing LangGraph agent engine:', stderr);
+      return res.status(500).json({ error: "Failed to run agent engine" });
+    }
+    try {
+      const brief = JSON.parse(stdout);
+      res.json(brief);
+    } catch (parseErr) {
+      res.status(500).json({ error: "Invalid JSON from agent engine", raw: stdout });
+    }
   });
 });
 

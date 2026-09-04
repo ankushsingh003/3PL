@@ -3,6 +3,8 @@ import { Cpu, CheckCircle2, XCircle, AlertTriangle, ArrowRight, ShieldCheck, Use
 
 export default function ExecutiveBriefCard({ incident, onApproveRecommendation }) {
   const [approving, setApproving] = useState(false);
+  const [runningAgent, setRunningAgent] = useState(false);
+  const [liveBrief, setLiveBrief] = useState(null);
   const [approverName, setApproverName] = useState('Tariq Al-Mansoor (Ops VP)');
 
   if (!incident) {
@@ -13,7 +15,30 @@ export default function ExecutiveBriefCard({ incident, onApproveRecommendation }
     );
   }
 
-  const isApproved = incident.approval && incident.approval.status === 'Approved';
+  const activeData = liveBrief || incident;
+  const isApproved = activeData.approval && activeData.approval.status === 'Approved';
+
+  const handleRunAgentLive = async () => {
+    try {
+      setRunningAgent(true);
+      const res = await fetch('/api/run-agent-diagnosis', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          warehouse_id: incident.warehouse_id,
+          start_date: incident.date_range ? incident.date_range.split(' – ')[0] : '2025-11-10',
+          end_date: incident.date_range ? incident.date_range.split(' – ')[1] : '2025-11-24',
+          anomaly_id: incident.id
+        })
+      });
+      const data = await res.json();
+      setLiveBrief({ ...incident, ...data });
+    } catch (err) {
+      console.error("Live agent execution failed:", err);
+    } finally {
+      setRunningAgent(false);
+    }
+  };
 
   const handleApprove = async () => {
     setApproving(true);
@@ -55,8 +80,17 @@ export default function ExecutiveBriefCard({ incident, onApproveRecommendation }
           </p>
         </div>
 
-        {/* Approval Badge */}
-        <div style={{ textAlign: 'right' }}>
+        {/* Approval Badge & Live Agent Trigger */}
+        <div style={{ textAlign: 'right', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '10px' }}>
+          <button 
+            className="btn-primary"
+            onClick={handleRunAgentLive}
+            disabled={runningAgent}
+            style={{ fontSize: '0.78rem', padding: '8px 14px' }}
+          >
+            <Sparkles size={16} /> {runningAgent ? 'Running Python LangGraph Engine...' : '⚡ Run Live SQL Agent Engine'}
+          </button>
+
           {isApproved ? (
             <div style={{ background: 'rgba(16, 185, 129, 0.15)', border: '1px solid rgba(16, 185, 129, 0.3)', padding: '10px 16px', borderRadius: '12px', display: 'flex', alignItems: 'center', gap: '10px' }}>
               <ShieldCheck size={24} color="var(--accent-emerald)" />
