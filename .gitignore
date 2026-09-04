@@ -5,3 +5,4 @@ __pycache__/
 
 # Data & Database
 data/*.db
+node_modules
